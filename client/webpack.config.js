@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin",
+        title: "JATE",
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -30,8 +30,8 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Text-Editor",
-        short_name: "Text-Editor",
-        description: "Just a simple text-editor",
+        short_name: "JATE",
+        description: "Just another text-editor",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "/",
@@ -58,7 +58,7 @@ module.exports = () => {
         },
         {
           test: /\.m?js$/,
-          exclude: /(node_modules|bower_components)/,
+          exclude: /node_modules/,
           use: {
             loader: "babel-loader",
             options: {
