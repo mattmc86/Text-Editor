@@ -4,7 +4,7 @@
 
 ## Description
 
-A Progressive Web Application that allows users to edit text which uses IndexedDB to create an Object Store. It is bundled with webpack and uses Service Workers that cache stored assets. The application can be used even when offline.
+A Progressive Web Application that allows users to edit text which uses IndexedDB to create an Object Store. It is bundled with webpack and uses Service Workers that cache stored assets. The application can be used even when offline.The application be viewed here: https://pwa-text-editor-matt.herokuapp.com/
 
 ## Table of Contents
 
